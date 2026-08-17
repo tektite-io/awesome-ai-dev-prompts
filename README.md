@@ -1,6 +1,6 @@
 #  Awesome AI Dev Prompts
 
-### The ultimate prompt library for AI coding tools — 111 production-grade system prompts to supercharge your development workflow.
+### The ultimate prompt library for AI coding tools — 126 production-grade system prompts to supercharge your development workflow.
 
 [![Stars](https://img.shields.io/github/stars/piyushrajyadav/awesome-ai-dev-prompts?style=social)](#-star-this-repo)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](#-contribute)
@@ -41,7 +41,7 @@ AI coding tools like Cursor, Copilot, and Claude are powerful — but most devel
 - ❌ Designing distributed systems and microservices with AI
 - ❌ Getting consistent, expert-level output from AI coding assistants
 
-**This repository solves that.** It provides **111 curated, battle-tested system prompts** that transform any AI coding tool into a domain-specific expert engineer. Each prompt encodes deep engineering knowledge — architecture patterns, coding standards, best practices, and real-world constraints — so you get senior-engineer-level output every time.
+**This repository solves that.** It provides **126 curated, battle-tested system prompts** that transform any AI coding tool into a domain-specific expert engineer. Each prompt encodes deep engineering knowledge — architecture patterns, coding standards, best practices, and real-world constraints — so you get senior-engineer-level output every time.
 
 Stop writing mediocre prompts. Start building faster with AI developer tools.
 
@@ -249,6 +249,46 @@ Stop writing mediocre prompts. Start building faster with AI developer tools.
 | Dynamic Context Adaptation | `context-engineering/09-dynamic-context-adaptation.txt` |
 | Cross-Repository Context | `context-engineering/10-cross-repository-context.txt` |
 
+### 🤖 AI Agents (3 Prompts)
+
+| Prompt | File | Description |
+|--------|------|-------------|
+| Multi-Agent Topology & State Graph Architect | `ai-agents/01-multi-agent-topology-architect.txt` | Designs deterministic, deadlock-free LangGraph and CrewAI multi-agent topologies with explicit state machines. |
+| Deterministic Tool-Calling & Schema Reliability Engineer | `ai-agents/02-tool-calling-reliability-engineer.txt` | Eliminates tool-calling failures, schema hallucinations, and execution loops in LLM function invocation. |
+| Agent Memory & Context State Specialist | `ai-agents/03-agent-memory-state-specialist.txt` | Engineers multi-tier episodic, semantic, and working memory architectures for long-horizon autonomous agents. |
+
+### 🔌 MCP Servers (3 Prompts)
+
+| Prompt | File | Description |
+|--------|------|-------------|
+| Production MCP Server Architect | `mcp-servers/01-production-mcp-server-architect.txt` | Architects scalable, type-safe Model Context Protocol (MCP) servers with clean tool, resource, and prompt abstractions. |
+| MCP Security & Client Integration Specialist | `mcp-servers/02-mcp-security-client-integration.txt` | Secures MCP client-server connections with OAuth2 authentication, privilege scoping, and sandboxed execution boundaries. |
+| MCP Protocol Inspector & Performance Debugger | `mcp-servers/03-mcp-protocol-debugger.txt` | Diagnoses JSON-RPC transport drops, streaming tool latencies, and capability negotiation errors in MCP systems. |
+
+### ⚙️ Claude Code & Cursor Config (3 Prompts)
+
+| Prompt | File | Description |
+|--------|------|-------------|
+| Autonomous Subagent System Architect | `agentic-config/01-subagent-system-architect.txt` | Architects task-scoped subagent hierarchies with strict prompt boundaries, tool scoping, and parent-child handoffs. |
+| Repository Governance Architect (.cursorrules / AGENTS.md) | `agentic-config/02-repository-governance-architect.txt` | Authors strict, conflict-free .cursorrules and AGENTS.md configs that enforce coding standards across AI tools. |
+| Claude Code Custom Skill & Tool Author | `agentic-config/03-claude-code-custom-skill-author.txt` | Authors deterministic SKILL.md workflows and custom bash tool integrations for Claude Code agents. |
+
+### 🎙️ Voice AI / Real-Time Agents (3 Prompts)
+
+| Prompt | File | Description |
+|--------|------|-------------|
+| Ultra-Low Latency Voice Pipeline Architect | `voice-ai/01-ultra-low-latency-voice-pipeline.txt` | Architects streaming LiveKit STT->LLM->TTS voice pipelines optimized for sub-500ms end-to-end conversational responsiveness. |
+| Conversational Spoken Interaction Designer | `voice-ai/02-conversational-spoken-interaction-designer.txt` | Designs natural, human-grade conversational flow with interruption handling, barge-in logic, and prosody control. |
+| Real-Time Voice Cost & Telemetry Engineer | `voice-ai/03-realtime-voice-cost-telemetry-engineer.txt` | Optimizes voice pipeline operational costs, audio token consumption, and QoS network resilience. |
+
+### ⚡ Token & Context Optimization (3 Prompts)
+
+| Prompt | File | Description |
+|--------|------|-------------|
+| Multi-Agent Token Cost Auditor & Profiler | `token-context-optimization/01-multi-agent-token-cost-auditor.txt` | Profiles multi-agent token consumption, identifies context leaks, and enforces hard token budgets across execution runs. |
+| Dynamic Context Window Compactor | `token-context-optimization/02-dynamic-context-window-compactor.txt` | Engineers lossless and lossy context compaction algorithms for ultra-long agent conversation histories. |
+| High-Recall RAG Retrieval & Context Density Architect | `token-context-optimization/03-high-recall-rag-retrieval-architect.txt` | Maximizes RAG retrieval precision and context token density while eliminating needle-in-a-haystack retrieval degradation. |
+
 ---
 
 ## 💡 Example Prompt
@@ -353,7 +393,12 @@ Each prompt is **150–250+ lines** of carefully crafted instructions — encodi
 | **Agent Workflows** | 15 | Step-by-step AI agent systems for complex tasks |
 | **Prompt Evaluation** | 10 | Testing, scoring, and optimizing prompts |
 | **Context Engineering** | 10 | Managing AI context and memory effectively |
-| **Total** | **111** | |
+| **AI Agents** | 3 | Multi-agent topologies, tool-calling reliability, memory state |
+| **MCP Servers** | 3 | Model Context Protocol servers, client security, JSON-RPC debugging |
+| **Agentic Config** | 3 | Subagents, .cursorrules / AGENTS.md governance, Claude Code skills |
+| **Voice AI** | 3 | Low-latency streaming pipelines, interaction design, FinOps telemetry |
+| **Token & Context Optimization** | 3 | Token cost profiling, dynamic compaction, high-recall RAG |
+| **Total** | **126** | |
 
 ---
 
